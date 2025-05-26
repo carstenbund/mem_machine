@@ -8,9 +8,10 @@ from mem_database import insert_mem_document, insert_bulk_diagnostics
 
 # --- CONFIGURATION ---
 # Set your project and assistant IDs
-API_KEY = "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"  # 
-PROJECT_ID = "proj_fNUNj1ELckOa3dyj46HeP3ik"  
-ASSISTANT_ID = "asst_N1IFaygaAyCphK2ZAZDbsJIU" 
+# Set your project and assistant IDs
+API_KEY = os.getenv("OPENAI_API_KEY"))
+PROJECT_ID = os.getenv("OPENAI_PROJECT_KEY"))
+ASSISTANT_ID = os.getenv("OPENAI_ASSISTANS_ID")
 
 # Initialize OpenAI Client
 client = OpenAI(
