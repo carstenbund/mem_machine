@@ -1,0 +1,319 @@
+{
+  "mem_core": [
+    {
+      "pillar": "Rational Core",
+      "subdomain": "Objective Fidelity",
+      "question": "To what degree does the content appeal to verifiable, empirical evidence?",
+      "type": "scale",
+      "scale": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "purpose": "Detect truth-seeking orientation"
+    },
+    {
+      "pillar": "Rational Core",
+      "subdomain": "Objective Fidelity",
+      "question": "How strongly is logical reasoning used to support the core argument?",
+      "type": "scale",
+      "scale": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "purpose": "Rational consistency check"
+    },
+    {
+      "pillar": "Rational Core",
+      "subdomain": "Objective Fidelity",
+      "question": "To what extent does the speaker prioritize truth over popularity or social reward?",
+      "type": "scale",
+      "scale": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "purpose": "Integrity prioritization"
+    },
+    {
+      "pillar": "Rational Core",
+      "subdomain": "Objective Fidelity",
+      "question": "To what degree is factual accuracy emphasized or demonstrated?",
+      "type": "scale",
+      "scale": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "purpose": "Strength of rational fidelity"
+    },
+    {
+      "pillar": "Rational Core",
+      "subdomain": "Personal Truth",
+      "question": "To what degree is there alignment between the speaker’s beliefs, motivations, and identity?",
+      "type": "scale",
+      "scale": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "purpose": "Assess personal coherence"
+    },
+    {
+      "pillar": "Rational Core",
+      "subdomain": "Personal Truth",
+      "question": "How strongly is the speaker’s view presented as lived, sincere, or derived from experience?",
+      "type": "scale",
+      "scale": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "purpose": "Identify subjectivist grounding"
+    },
+    {
+      "pillar": "Rational Core",
+      "subdomain": "Personal Truth",
+      "question": "To what extent is the content emotionally or morally anchored in the speaker’s personal sense of rightness?",
+      "type": "scale",
+      "scale": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "purpose": "Coherence vs. external validation"
+    },
+    {
+      "pillar": "Emotional Infrastructure",
+      "question": "To what degree is emotional tone central to the message (e.g., outrage, empathy, fear)?",
+      "type": "scale",
+      "scale": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "purpose": "Measure affective dominance"
+    },
+    {
+      "pillar": "Emotional Infrastructure",
+      "question": "To what extent does emotional appeal substitute for or override evidence?",
+      "type": "scale",
+      "scale": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "purpose": "Affect-over-reason indicator"
+    },
+    {
+      "pillar": "Emotional Infrastructure",
+      "question": "How strongly does the content attempt to trigger a shared emotional state in a group?",
+      "type": "scale",
+      "scale": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "purpose": "Detect emotional mirroring"
+    },
+    {
+      "pillar": "Multidimensional Coherence",
+      "question": "To what extent does the speaker attempt to reconcile multiple truth claims or worldviews?",
+      "type": "scale",
+      "scale": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "purpose": "Detect pluralistic synthesis"
+    },
+    {
+      "pillar": "Multidimensional Coherence",
+      "question": "To what degree does the message reflect contextual or situational reasoning?",
+      "type": "scale",
+      "scale": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "purpose": "Situational epistemology strength"
+    },
+    {
+      "pillar": "Multidimensional Coherence",
+      "question": "To what extent is ambiguity embraced or presented as part of the truth?",
+      "type": "scale",
+      "scale": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "purpose": "Post-binary alignment"
+    },
+    {
+      "pillar": "Collapse of Epistemic Authority",
+      "question": "To what degree does the speaker express distrust in institutions (media, science, government)?",
+      "type": "scale",
+      "scale": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "purpose": "Epistemic disintegration signal"
+    },
+    {
+      "pillar": "Collapse of Epistemic Authority",
+      "question": "How strongly is official knowledge rejected or replaced by alternative sources?",
+      "type": "scale",
+      "scale": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "purpose": "Authority displacement"
+    },
+    {
+      "pillar": "Collapse of Epistemic Authority",
+      "question": "To what degree is truth claimed as self-validating rather than externally verified?",
+      "type": "scale",
+      "scale": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "purpose": "Institutional bypassing"
+    },
+    {
+      "pillar": "Sovereignty of the Unreasonable",
+      "question": "To what extent is logic intentionally subverted or mocked?",
+      "type": "scale",
+      "scale": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "purpose": "Performative absurdity detection"
+    },
+    {
+      "pillar": "Sovereignty of the Unreasonable",
+      "question": "How strongly does the speaker valorize intuition, revelation, or absurdity over evidence?",
+      "type": "scale",
+      "scale": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "purpose": "Non-rational valorization"
+    },
+    {
+      "pillar": "Sovereignty of the Unreasonable",
+      "question": "To what degree does the content present irrationality as a badge of honor or independence?",
+      "type": "scale",
+      "scale": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "purpose": "Irrational sovereignty strength"
+    },
+    {
+      "pillar": "Meta",
+      "question": "How epistemically relevant is this content (i.e., does it make or imply a truth claim)?",
+      "type": "scale",
+      "scale": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "purpose": "Filter out purely aesthetic or logistical content"
+    },
+    {
+      "pillar": "Meta",
+      "question": "To what degree is there evidence of bad faith (intentional deception, manipulation, trolling)?",
+      "type": "scale",
+      "scale": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "purpose": "Identify malign actors or intent"
+    },
+    {
+      "pillar": "Meta",
+      "question": "How strongly does the content rely on implicit group loyalty or signaling to justify its truth claim?",
+      "type": "scale",
+      "scale": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "purpose": "Tribal alignment detection"
+    }
+  ]
+}

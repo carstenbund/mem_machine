@@ -1,0 +1,61 @@
+{
+  "name": "mem_core",
+  "strict": true,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "mem_core": {
+        "type": "array",
+        "description": "A collection of evaluations that relate to the core pillars and criteria.",
+        "items": {
+          "type": "object",
+          "properties": {
+            "pillar": {
+              "type": "string"
+            },
+            "subdomain": {
+              "type": "string"
+            },
+            "question": {
+              "type": "string"
+            },
+            "type": {
+              "type": "string",
+              "enum": [
+                "scale"
+              ],
+              "description": "The type of response expected for the inquiry."
+            },
+            "purpose": {
+              "type": "string"
+            },
+            "scale": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            },
+            "response_value": {
+              "type": "number",
+              "description": "The evaluated degree of presence (0–5)."
+            }
+          },
+          "required": [
+            "pillar",
+            "subdomain",
+            "question",
+            "type",
+            "purpose",
+            "scale",
+            "response_value"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "required": [
+      "mem_core"
+    ],
+    "additionalProperties": false
+  }
+}

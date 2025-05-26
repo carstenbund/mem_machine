@@ -1,0 +1,34 @@
+{
+  "mem_core": [
+    {
+      "pillar": "Rational Core",
+      "subdomain": "Objective Fidelity",
+      "question": "To what degree does the content appeal to verifiable, empirical evidence?",
+      "type": "scale",
+      "scale": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "purpose": "Detect truth-seeking orientation"
+    },
+    {
+      "pillar": "Rational Core",
+      "subdomain": "Objective Fidelity",
+      "question": "How strongly is logical reasoning used to support the core argument?",
+      "type": "scale",
+      "scale": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "purpose": "Rational consistency check"
+    }
+  ]
+}
